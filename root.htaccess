@@ -1,0 +1,8 @@
+# vinylhive/.htaccess
+
+RewriteEngine On
+RewriteBase /
+
+# Редирект на public папку
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L,QSA]
