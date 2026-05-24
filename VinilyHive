@@ -1,0 +1,65 @@
+vinylhive/
+├── .htaccess
+├── config/
+│   ├── database.php
+│   └── app.php
+├── public/
+│   ├── index.php
+│   ├── index_content.php
+│   ├── .htaccess
+│   ├── css/
+│   │   └── main.css
+│   ├── js/
+│   │   ├── slider.js
+│   │   ├── preorder-timer.js
+│   │   ├── filters.js
+│   │   ├── cart.js
+│   │   ├── zoom.js
+│   │   ├── rating.js
+│   │   └── quick-view.js
+│   ├── uploads/
+│   │   └── covers/
+│   │       └── .gitkeep
+│   └── assets/
+│       └── .gitkeep
+├── src/
+│   ├── Database/
+│   │   └── Database.php
+│   ├── Models/
+│   │   ├── Release.php
+│   │   ├── Order.php
+│   │   ├── User.php
+│   │   ├── Wishlist.php
+│   │   ├── Subscription.php
+│   │   ├── Blog.php
+│   │   └── Rating.php
+│   ├── Controllers/
+│   │   ├── FilterController.php
+│   │   ├── CartController.php
+│   │   ├── RatingController.php
+│   │   └── WishlistController.php
+│   ├── Views/
+│   │   ├── partials/
+│   │   │   ├── header.php
+│   │   │   └── footer.php
+│   │   ├── catalog.php
+│   │   ├── product.php
+│   │   ├── cart.php
+│   │   ├── checkout.php
+│   │   ├── blog.php
+│   │   ├── article.php
+│   │   ├── account.php
+│   │   ├── wishlist.php
+│   │   ├── login.php
+│   │   ├── register.php
+│   │   └── 404.php
+│   └── Helpers/
+│       └── functions.php
+├── sql/
+│   └── install.sql
+├── admin/
+│   ├── index.php
+│   ├── import-process.php
+│   └── duplicate-process.php
+└── docs/
+    └── admin-guide.md
